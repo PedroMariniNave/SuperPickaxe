@@ -1,0 +1,22 @@
+Settings:
+  command: superpickaxe
+  aliases: []
+  permission: superpickaxe.cmd
+  permission-message: '&cVocê não possui permissão para executar esse comando!'
+  durability-damage-per-block: 1
+
+Messages:
+  command-usage: '&cUso correto: /superpickaxe <jogador> <quantia>.'
+  offline-player: '&cEsse jogador está offline!'
+  invalid-amount: '&cA quantia informada é inválida!'
+
+Item:
+  type: DIAMOND_PICKAXE
+  hide-enchants: true
+  hide-attributes: true
+  name: '&6Super Picareta'
+  lore:
+    - '&7Use essa picareta para'
+    - '&7remover bedrocks!'
+  enchants:
+    - 'DURABILITY,1'
